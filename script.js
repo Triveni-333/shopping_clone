@@ -7,23 +7,19 @@ document.querySelector('#search').onclick = () => {
     favorite.classList.remove('active');
     checkout.classList.remove('active');
 }
-
 document.querySelector('#favorite').onclick = () => {
     favorite.classList.toggle('active');
     search.classList.remove('active');
     checkout.classList.remove('active');
 }
-
 document.querySelector('#checkout').onclick = () => {
     checkout.classList.toggle('active');
     search.classList.remove('active');
     favorite.classList.remove('active');
 }
-
 document.querySelector('#login').onclick = () => {
     login.classList.toggle('active');  
     search.classList.remove('active'); 
     favorite.classList.remove('active');
     checkout.classList.remove('active');
-
 }
